@@ -1,0 +1,13 @@
+{
+  "name": "engineer-2027-labs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent software engineering practice and evidence",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

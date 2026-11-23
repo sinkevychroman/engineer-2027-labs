@@ -8,9 +8,3 @@ export async function runSequentially(tasks) {
     });
   }, Promise.resolve([]));
 }
-
-const tasks1 = [() => Promise.resolve(10), () => 20, () => Promise.resolve(30)];
-
-runSequentially(tasks1).then((result) => {
-  console.log(result);
-});
